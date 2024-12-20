@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  /*background-color:rgb(163, 216, 254);*/
+  background-color:rgb(243, 228, 174);
+  color: rgb(42, 42, 42);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+
+h2 {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight:bold;
+  text-align: center;
+  background-color: #f4f4f4;
+  width: fit-content;
+  margin: auto;
+  border-radius: 10px;
+}
+.page-title {
+  border: 2px solid #b6b6b6;
+}
+
+.second {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nombre {
+  margin-top: 0%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+nav ul {
+  margin-top: 0%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #f4f4f4;
+  /*border: 1px solid #303030;*/
+  border: 1px solid #b6b6b6;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); 
+  border-radius: 6px;
+}
+
+nav ul a {
+ color: rgb(61, 61, 61);
+ font-size: large;
+ font-weight: bold;
+ text-decoration: none;  
+}
+
+nav ul a:hover{
+  color: rgb(30, 62, 247);
+  text-decoration: underline;  
+ }
+
+main {
+  width: 90%;
+  padding-top: 0%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+}
+
+.wrapper {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  width: 100%;
+  flex: 0 0 auto;
+  /*background-color: rgb(163, 216, 254);*/
+  background-color:rgb(243, 228, 174);
+  color: rgb(42, 42, 42);
+}
+
+footer p {
+  width: 90%;
+  margin:auto;
+  padding: 1rem;
+  text-align: end;
+  margin-bottom: 0%;
+}
+
+html, body {
+  background-color: rgb(255, 254, 231);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  margin: 0%;
+}
+
+table {
+  margin: auto;
+	border: 1px solid #dadada;
+  border-collapse: collapse;
+	margin-bottom: 20px;
+  text-align: left;
+}
+
+table caption {
+  padding: 0.8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #F7F7F7;
+}
+
+table th {
+	font-weight: bold;
+  padding: 0.8rem;
+	background: #efefef;
+	border: 1px solid #dadada;
+}
+
+table td{
+  padding: 0.8rem;
+	border: 1px solid #dadada;
+}
+
+table tbody tr:nth-child(odd){
+	background: #fff;
+}
+table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
+.product-card {
+  width: 800px; 
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: #f4f4f4; 
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+}
+
+.product-image {
+  display: flex;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mini-image {
+  display: flex;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  width: 55%; 
+  padding: 10px;
+}
+
+.product-name {
+  display:flex;
+  margin-bottom: 5px; 
+}
+
+.product-price {
+  display: flex;
+  font-weight: bold; /* Bold for emphasis */
+  margin-bottom: 10px; /* Margin for spacing */
+}
+
+.mas-menos {
+  display: flex;
+  flex-direction: row;  
+  align-items: baseline;
+}
+
+#menos, #mas{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.product-cantidad {
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+form input, textarea, select {
+  margin: 0.5rem;
+  width: 16rem;
+  border-radius: 4px;
+}
+
+form input[type=submit] {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #efefef;
+  width: auto;
+  border-radius: 6px;  
+}
+
+.campo {
+  margin: auto;
+  background-color: #f4f4f4;
+  padding: 1rem 3rem;
+  width: fit-content;
+  border-radius: 10px;  
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+  margin: auto;
+  background-color: #f4f4f4;
+  font-size: large;
+  line-height: 2rem;
+  padding: 1rem 3rem;
+  width: 90%;
+  text-align: justify;
+  border-radius: 10px;  
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); 
+}
+
+form label {
+  display: inline-block;
+  padding: 0.5rem;
+  vertical-align: top;
+  width: 5rem;
+}
+
+.ingresar form label {
+  width: 10rem;
+}
+
+.mensaje {
+  position: fixed; 
+  width: 20%;
+  right: 10px; 
+  top: 20%; 
+  padding: 10px; 
+  background: #f4f4f4;  
+  border: 1px solid #333;
+  border-radius: 10px;    
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); 
+ }
+
+.cuenta {
+  position: fixed; 
+  width: 20%;
+  right: 10px; 
+  top: 35%; 
+  padding: 10px; 
+  background: #f4f4f4;  
+  border: 1px solid #333;
+  border-radius: 10px;  
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); 
+ }
+
+ .aviso {
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+ }
